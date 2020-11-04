@@ -1,55 +1,55 @@
 
-t
-java:S1450´"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(¹ñÌ8•¸äØ.
+]	java:S110"<This class has 6 parents which is greater than 5 authorized.(„è•€ÿÿÿÿÿ8—™¹äØ.
+E
+java:S1604="(Make this anonymous inner class a lambda(ßº¹Õ8•¸äØ.
+J
+java:S1604D"(Make this anonymous inner class a lambda(…æ©âÿÿÿÿÿ8•¸äØ.
+y
+java:S1450µ"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(Ó“©©ıÿÿÿÿ8•¸äØ.
+w
+java:S1450³"YRemove the "jComboBox1" field and declare it as a local variable in the relevant methods.(Ô“á8•¸äØ.
+w
+java:S1450´"YRemove the "jComboBox2" field and declare it as a local variable in the relevant methods.(©Úé±8•¸äØ.
 L
-java:S1172{"*Remove this unused method parameter "evt".(ÊÈèÂüÿÿÿÿ8•¸äØ.
-J
-java:S1604/"(Make this anonymous inner class a lambda(Å¬Ñüÿÿÿÿ8•¸äØ.
-~
-java:S1450¯"[Remove the "buttonGroup1" field and declare it as a local variable in the relevant methods.(ÌšËªøÿÿÿÿ8•¸äØ.
-T
-java:S1135|"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8•¸äØ.
-U
-java:S1135ˆ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8•¸äØ.
-J
-java:S1604B"(Make this anonymous inner class a lambda(…æ©âÿÿÿÿÿ8•¸äØ.
-M
-java:S1172‡"*Remove this unused method parameter "evt".(•Ş­¨ûÿÿÿÿ8•¸äØ.
-U
-java:S1135€"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8•¸äØ.
+java:S1172}"*Remove this unused method parameter "evt".(ÊÈèÂüÿÿÿÿ8•¸äØ.
+S
+java:S1068±"0Remove this unused "buttonGroup1" private field.(ÌšËªøÿÿÿÿ8•¸äØ.
+K
+java:S1604©"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ8•¸äØ.
+t
+java:S1450¶"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(¹ñÌ8•¸äØ.
 J
 java:S1604("(Make this anonymous inner class a lambda(£À¿Óüÿÿÿÿ8•¸äØ.
-t
-java:S1450°"WRemove the "jButton1" field and declare it as a local variable in the relevant methods.(©ÛÓo8•¸äØ.
-]	java:S110"<This class has 6 parents which is greater than 5 authorized.(„è•€ÿÿÿÿÿ8—™¹äØ.
-c
-java:S2147Ÿ"ECombine this catch with the one at line 155, which has the same body.(ã€ 8•¸äØ.
-h
-java:S2147¡"ECombine this catch with the one at line 155, which has the same body.(»´ı‹ûÿÿÿÿ8•¸äØ.
-E
-java:S1604;"(Make this anonymous inner class a lambda(ßº¹Õ8•¸äØ.
 U
-java:S1135„"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8•¸äØ.
-}
-java:S1450¶"ZRemove the "jTextField2" field and declare it as a local variable in the relevant methods.(»ôÜ’üÿÿÿÿ8ø×°äØ.
-L
-java:S1172"*Remove this unused method parameter "evt".(‘ òôøÿÿÿÿ8•¸äØ.
-[
-java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8•¸äØ.
+java:S1135‚"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8•¸äØ.
 M
-java:S1172ƒ"*Remove this unused method parameter "evt".(©øŞİúÿÿÿÿ8•¸äØ.
-w
-java:S1450±"YRemove the "jComboBox1" field and declare it as a local variable in the relevant methods.(Ô“á8•¸äØ.
-c
-java:S2147"ECombine this catch with the one at line 155, which has the same body.(¨¦Š½8•¸äØ.
-w
-java:S1450²"YRemove the "jComboBox2" field and declare it as a local variable in the relevant methods.(©Úé±8•¸äØ.
-S
-java:S1068¯"0Remove this unused "buttonGroup1" private field.(ÌšËªøÿÿÿÿ8•¸äØ.
+java:S1172…"*Remove this unused method parameter "evt".(©øŞİúÿÿÿÿ8•¸äØ.
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ı‡³äØ.
-y
-java:S1450³"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(Ó“©©ıÿÿÿÿ8•¸äØ.
-K
-java:S1604§"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ8•¸äØ.
+M
+java:S1172‰"*Remove this unused method parameter "evt".(•Ş­¨ûÿÿÿÿ8•¸äØ.
+[
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8•¸äØ.
 }
-java:S1450µ"ZRemove the "jTextField1" field and declare it as a local variable in the relevant methods.(¡¼ëøøÿÿÿÿ8á’õæØ.
+java:S1450·"ZRemove the "jTextField1" field and declare it as a local variable in the relevant methods.(¡¼ëøøÿÿÿÿ8á’õæØ.
+U
+java:S1135Š"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8•¸äØ.
+}
+java:S1450¸"ZRemove the "jTextField2" field and declare it as a local variable in the relevant methods.(»ôÜ’üÿÿÿÿ8ø×°äØ.
+M
+java:S1172"*Remove this unused method parameter "evt".(‘ òôøÿÿÿÿ8•¸äØ.
+c
+java:S2147Ÿ"ECombine this catch with the one at line 157, which has the same body.(¨¦Š½8•¸äØ.
+t
+java:S1450²"WRemove the "jButton1" field and declare it as a local variable in the relevant methods.(©ÛÓo8•¸äØ.
+h
+java:S2147£"ECombine this catch with the one at line 157, which has the same body.(»´ı‹ûÿÿÿÿ8•¸äØ.
+J
+java:S16040"(Make this anonymous inner class a lambda(Å¬Ñüÿÿÿÿ8•¸äØ.
+c
+java:S2147¡"ECombine this catch with the one at line 157, which has the same body.(ã€ 8•¸äØ.
+U
+java:S1135†"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8•¸äØ.
+~
+java:S1450±"[Remove the "buttonGroup1" field and declare it as a local variable in the relevant methods.(ÌšËªøÿÿÿÿ8•¸äØ.
+T
+java:S1135~"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8•¸äØ.

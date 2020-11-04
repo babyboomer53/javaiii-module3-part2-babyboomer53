@@ -43,7 +43,7 @@ public class TheView extends JFrame {
             }
         });
 
-        jComboBox1.setModel(new DefaultComboBoxModel<>(new String[] { "Binary", "Decimal", "Hexadecimal", "Octal" }));
+        jComboBox1.setModel(new DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal"}));
         jComboBox1.setSelectedIndex(1);
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -56,7 +56,7 @@ public class TheView extends JFrame {
 
         jTextField2.setEditable(false);
 
-        jComboBox2.setModel(new DefaultComboBoxModel<>(new String[] { "Binary", "Decimal", "Hexadecimal", "Octal", " " }));
+        jComboBox2.setModel(new DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal", " "}));
         jComboBox2.setSelectedIndex(1);
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,7 +64,7 @@ public class TheView extends JFrame {
             }
         });
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Convert");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -124,10 +124,98 @@ public class TheView extends JFrame {
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
+
     }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+    public void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
+        String input = jTextField1.getText();
+        jTextField2.setText(performConversion());
+    }
+
+    private String performConversion() {
+        String theAnswer = null;
+        TheModel theModel = new TheModel();
+        theModel.setTheNumber(jTextField1.getText().toUpperCase());
+        int baseIn = jComboBox1.getSelectedIndex();
+        int baseOut = jComboBox2.getSelectedIndex();
+        switch (baseIn) {
+            case 0:
+                switch (baseOut) {
+                    case 0:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 2);
+                        break;
+                    case 1:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 10);
+                        break;
+                    case 2:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 16);
+                        break;
+                    case 3:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 8);
+                        break;
+                    default:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 10);
+                }
+                break;
+            case 1:
+                switch (baseOut) {
+                    case 0:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 2);
+                        break;
+                    case 1:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 10);
+                        break;
+                    case 2:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 16);
+                        break;
+                    case 3:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 8);
+                        break;
+                    default:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 10);
+                }
+                break;
+            case 2:
+                switch (baseOut) {
+                    case 0:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 2);
+                        break;
+                    case 1:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 10);
+                        break;
+                    case 2:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 16);
+                        break;
+                    case 3:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 8);
+                        break;
+                    default:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 10);
+                }
+                break;
+            case 3:
+                switch (baseOut) {
+                    case 0:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 2);
+                        break;
+                    case 1:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 10);
+                        break;
+                    case 2:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 16);
+                        break;
+                    case 3:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 8);
+                        break;
+                    default:
+                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 10);
+                }
+            default:
+                break;
+        }
+        return theAnswer;
+
     }
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,6 +224,10 @@ public class TheView extends JFrame {
 
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
+    }
+
+    public String getNumber(){
+        return jTextField1.getText();
     }
 
     /**

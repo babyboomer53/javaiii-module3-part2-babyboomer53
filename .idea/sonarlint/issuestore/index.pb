@@ -7,3 +7,5 @@ Y
 )src/NumericConversions/TheController.java,c\a\ca2ba6754561f3250c532b560f502ae2c8454be2
 S
 #src/NumericConversions/TheView.java,1\d\1da3ab7aaedec66306068d2db8bd0b6542962feb
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0

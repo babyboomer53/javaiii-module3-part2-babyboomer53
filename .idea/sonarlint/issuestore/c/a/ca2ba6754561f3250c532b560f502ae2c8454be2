@@ -1,6 +1,9 @@
 
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ
-I
-java:S1068",Remove this unused "theModel" private field.(î¸ÈÅ8ıÃÂçØ.
+W	java:S125"<This block of commented-out lines of code should be removed.(ƒÍ¦s8©€¡öØ.
+G
+java:S1068	"+Remove this unused "theView" private field.(Ë³î}8©€¡öØ.
 £
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯ÕÊŠøÿÿÿÿ8ãĞêçØ.
+I
+java:S1068",Remove this unused "theModel" private field.(î¸ÈÅ8ıÃÂçØ.

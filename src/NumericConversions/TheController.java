@@ -14,14 +14,8 @@ public class TheController {
         // this.theView.addMyActionListener(new MyActionListener());
     }
 
-    class MyActionListener implements ActionListener {
-        public void actionPerformed(ActionEvent actionEvent) {
-
-        }
-    }
-
     public static void main(String[] args) {
-        TheView theView=new TheView();
-        theView.setVisible(true);
+        TheController theController = new TheController(new TheModel(),new TheView());
+        theController.theView.setVisible(true);
     }
 }
