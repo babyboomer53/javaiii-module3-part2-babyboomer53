@@ -37,6 +37,9 @@ public class TheView extends JFrame {
         jLabel1.setLabelFor(jTextField1);
         jLabel1.setText("Input");
 
+        jTextField1.setHorizontalAlignment(SwingConstants.RIGHT);
+        jTextField2.setHorizontalAlignment(SwingConstants.RIGHT);
+
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -118,8 +121,9 @@ public class TheView extends JFrame {
                                 .addComponent(jButton1)
                                 .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        setLocationRelativeTo(null);
+
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {
