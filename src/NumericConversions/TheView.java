@@ -56,7 +56,7 @@ public class TheView extends JFrame {
 
         jTextField2.setEditable(false);
 
-        jComboBox2.setModel(new DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal", " "}));
+        jComboBox2.setModel(new DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal"}));
         jComboBox2.setSelectedIndex(1);
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
