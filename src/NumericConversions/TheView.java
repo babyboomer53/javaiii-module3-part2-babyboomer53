@@ -140,7 +140,7 @@ public class TheView extends JFrame {
     private String performConversion() {
         String theAnswer = null;
         TheModel theModel = new TheModel();
-        theModel.setTheNumber(jTextField1.getText().toUpperCase());
+        theModel.setTheNumber(jTextField1.getText().toUpperCase().trim());
         int baseIn = jComboBox1.getSelectedIndex();
         int baseOut = jComboBox2.getSelectedIndex();
         switch (baseIn) {

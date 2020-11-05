@@ -4,7 +4,7 @@ package NumericConversions;
 class BaseConversions {
 
     static String baseToBase(String num, int base1, int base2) {
-
+        if (num.isEmpty() || num.isBlank()) return "Invalid input!";
         int no = convFrmBaseToDeci(num, base1);
         String returnValue = convFrmDecToBase(no, base2);
         return returnValue;
@@ -43,7 +43,7 @@ class BaseConversions {
             return "0";
         } else if (dividend != 0) {
             if (result.isEmpty()) {
-                return "Invalid conversion!";
+                return "Invalid input!";
             } else {
                 return new StringBuffer(result).reverse().toString();
             }
