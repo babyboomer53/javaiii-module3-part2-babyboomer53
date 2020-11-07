@@ -9,3 +9,5 @@ S
 #src/NumericConversions/TheView.java,1\d\1da3ab7aaedec66306068d2db8bd0b6542962feb
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+X
+(src/NumericConversions/FunWithRegex.java,d\6\d6983baa430c6afa10e6a9b0b0da5673b4eb631d

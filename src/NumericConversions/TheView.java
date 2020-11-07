@@ -47,6 +47,7 @@ public class TheView extends JFrame {
         });
 
         jComboBox1.setModel(new DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal"}));
+
         jComboBox1.setSelectedIndex(1);
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -57,7 +58,7 @@ public class TheView extends JFrame {
         jLabel2.setLabelFor(jTextField2);
         jLabel2.setText("Result");
 
-        jTextField2.setEditable(false);
+        jTextField2.setEditable(true);
 
         jComboBox2.setModel(new DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal"}));
         jComboBox2.setSelectedIndex(1);
