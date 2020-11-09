@@ -1,20 +1,10 @@
 
-I
-java:S1481",Remove this unused "formatH" local variable.(ï©°“8½ÔÂ€Ú.
 ]
-java:S1854";Remove this useless assignment to local variable "formatD".(×ô¦Âúÿÿÿÿ8ô¾ˆ€Ú.
-I
-java:S1481",Remove this unused "formatB" local variable.(ı”¹ö8ÊøÿÙ.
-]	java:S125
-"<This block of commented-out lines of code should be removed.(Ô¶Áÿÿÿÿÿ8”üÚ.
-N
-java:S1481",Remove this unused "formatD" local variable.(×ô¦Âúÿÿÿÿ8Âåˆ€Ú.
-X
-java:S1854";Remove this useless assignment to local variable "formatB".(ı”¹ö8Ç¿àÿÙ.
-X
-java:S1854";Remove this useless assignment to local variable "formatH".(ï©°“8½ÔÂ€Ú.
+java:S1854
+";Remove this useless assignment to local variable "formatD".(×ô¦Âúÿÿÿÿ8ô¾ˆ€Ú.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ
-]
-java:S1854";Remove this useless assignment to local variable "formatO".(ğçºöûÿÿÿÿ8´§÷ÿÙ.
 N
-java:S1481",Remove this unused "formatO" local variable.(ğçºöûÿÿÿÿ8´§÷ÿÙ.
+java:S1481
+",Remove this unused "formatD" local variable.(×ô¦Âúÿÿÿÿ8Âåˆ€Ú.
+N
+java:S1128"1Remove this unused import 'java.math.BigInteger'.(»Çâ€8Àä¦¤Ú.

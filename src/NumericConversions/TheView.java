@@ -220,7 +220,6 @@ public class TheView extends JFrame {
                 break;
         }
         return theAnswer;
-
     }
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {
