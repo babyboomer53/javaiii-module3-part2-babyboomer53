@@ -6,7 +6,7 @@ public class FunWithRegex {
         String hexadecimal;
         String octal;
 
-        String regex = "([01]{4}|[0-7]{3}|[0-9A-Z]{2})";
+        String regex = "([01]{4}|[0-7]{3}|[0-9A-F]{2})";
 
         hexadecimal = "D0DAFEC1F";
         binary = "1111011";
