@@ -1,0 +1,47 @@
+
+U
+java:S1135—"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8»Ï†ÌÚ.
+S
+java:S1068Å"0Remove this unused "buttonGroup1" private field.(ïÔúØÿÿÿÿÿ8ë˜ĞÚ.
+M
+java:S1172 "*Remove this unused method parameter "evt".(©øŞİúÿÿÿÿ8»Ï†ÌÚ.
+]	java:S110"<This class has 6 parents which is greater than 5 authorized.(Ó«ï‘şÿÿÿÿ8ÿ¤èÌÚ.
+U
+java:S1135¡"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8»Ï†ÌÚ.
+J
+java:S16041"(Make this anonymous inner class a lambda(£À¿Óüÿÿÿÿ8ÿ¤èÌÚ.
+E
+java:S1604J"(Make this anonymous inner class a lambda(ßº¹Õ8ÿ¤èÌÚ.
+U
+java:S1135¥"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8»Ï†ÌÚ.
+y
+java:S1450Ê"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ8ë˜ĞÚ.
+w
+java:S1450Ç"YRemove the "jCheckBox1" field and declare it as a local variable in the relevant methods.(×µ„Ò8»Ï†ÌÚ.
+E
+java:S1604X"(Make this anonymous inner class a lambda(•à‚Ò8ÿ¤èÌÚ.
+U
+java:S1135›"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8»Ï†ÌÚ.
+M
+java:S1172–"*Remove this unused method parameter "evt".(ÊÈèÂüÿÿÿÿ8»Ï†ÌÚ.
+M
+java:S1172¤"*Remove this unused method parameter "evt".(•Ş­¨ûÿÿÿÿ8»Ï†ÌÚ.
+u
+java:S1450Æ"WRemove the "jButton1" field and declare it as a local variable in the relevant methods.(å……¶8»Ï†ÌÚ.
+M
+java:S1172¨"*Remove this unused method parameter "evt".(ü¸†“øÿÿÿÿ8ÿ¤èÌÚ.
+U
+java:S1135©"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ÿ¤èÌÚ.
+Q
+java:S1481­".Remove this unused "theAnswer" local variable.(´¡éØıÿÿÿÿ8ÿë—ĞÚ.
+M
+java:S1172š"*Remove this unused method parameter "evt".(‘ òôøÿÿÿÿ8»Ï†ÌÚ.
+J
+java:S1604Q"(Make this anonymous inner class a lambda(…æ©âÿÿÿÿÿ8ÿ¤èÌÚ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8»Ï†ÌÚ.
+y
+java:S1450Ë"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ8ÿ¤èÌÚ.
+J
+java:S16049"(Make this anonymous inner class a lambda(Å¬Ñüÿÿÿÿ8ÿ¤èÌÚ.
+~
+java:S1450Å"[Remove the "buttonGroup1" field and declare it as a local variable in the relevant methods.(ïÔúØÿÿÿÿÿ8ë˜ĞÚ.

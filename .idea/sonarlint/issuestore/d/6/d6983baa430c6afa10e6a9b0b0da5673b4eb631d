@@ -1,10 +1,2 @@
 
-]
-java:S1854
-";Remove this useless assignment to local variable "formatD".(×ô¦Âúÿÿÿÿ8ô¾ˆ€Ú.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ
-N
-java:S1481
-",Remove this unused "formatD" local variable.(×ô¦Âúÿÿÿÿ8Âåˆ€Ú.
-N
-java:S1128"1Remove this unused import 'java.math.BigInteger'.(»Çâ€8Àä¦¤Ú.
