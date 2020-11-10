@@ -6,7 +6,7 @@ public class FunWithRegex {
         String hexadecimal;
         String octal;
 
-        String regex4 = "([01]{4}|[0-7]{3}|[0-9A-Z]{2})";
+        String regex = "([01]{4}|[0-7]{3}|[0-9A-Z]{2})";
 
         hexadecimal = "D0DAFEC1F";
         binary = "1111011";
@@ -17,9 +17,9 @@ public class FunWithRegex {
         octal = new StringBuffer(octal).reverse().toString();
 
         System.out.println();
-        System.out.printf("%13s%n", new StringBuffer(hexadecimal.replaceAll(regex4, "$1 ").trim()).reverse());
-        System.out.printf("%13s%n", new StringBuffer(octal.replaceAll(regex4, "$1 ").trim()).reverse());
-        System.out.printf("%13s%n", new StringBuffer(binary.replaceAll(regex4, "$1 ").trim()).reverse());
+        System.out.printf("%13s%n", new StringBuffer(hexadecimal.replaceAll(regex, "$1 ").trim()).reverse());
+        System.out.printf("%13s%n", new StringBuffer(octal.replaceAll(regex, "$1 ").trim()).reverse());
+        System.out.printf("%13s%n", new StringBuffer(binary.replaceAll(regex, "$1 ").trim()).reverse());
         System.out.println();
     }
 }
