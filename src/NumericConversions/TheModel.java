@@ -9,7 +9,7 @@ class BaseConversions {
     static String baseToBase(String num, int base1, int base2) {
 
         try {
-            return new BigInteger(num, base1).toString();
+            return new BigInteger(num, base1).toString(base2);
         } catch (NumberFormatException numberFormatException) {
             System.out.println(numberFormatException);
             return "Invalid input!";
