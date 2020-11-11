@@ -2,12 +2,14 @@ package NumericConversions;
 
 import java.math.BigInteger;
 
+import static NumericConversions.FunWithRegex.formatNumber;
+
 class BaseConversions {
 
     static String baseToBase(String num, int base1, int base2) {
 
         try {
-            return new BigInteger(num, base1).toString(base2);
+            return new BigInteger(num, base1).toString();
         } catch (NumberFormatException numberFormatException) {
             System.out.println(numberFormatException);
             return "Invalid input!";
