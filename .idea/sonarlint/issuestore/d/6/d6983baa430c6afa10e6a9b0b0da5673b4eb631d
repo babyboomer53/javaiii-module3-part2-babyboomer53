@@ -1,6 +1,2 @@
 
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ
-p
-java:S11920"NDefine a constant instead of duplicating this literal "%-12s: %20s%n" 4 times.(³õúİÿÿÿÿÿ8´º¤ÅÛ.
-B
-java:S2129" Remove this "String" constructor(Œìâ®ùÿÿÿÿ8œÅÇ×Û.

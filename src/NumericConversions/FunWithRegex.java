@@ -7,6 +7,9 @@ public class FunWithRegex {
         String replacement;
         int grouping;
         String padding;
+        if (!number.matches("^[0-9a-fA-F]*$")) {
+            return number;
+        }
         if (radix == 2) {               // If the base or radix is 2 (i.e., a binary number)…
             regex = "([01]{4})";        // Group the digits by 4,
             replacement = "$1 ";        // and separate them by a space.

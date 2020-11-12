@@ -12,6 +12,8 @@ import javax.swing.*;
  */
 public class NewJFrame extends javax.swing.JFrame {
 
+    boolean format = false;
+
     /**
      * Creates new form NewJFrame
      */
@@ -167,6 +169,9 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
+        if (!format) {
+            format = true;
+        } else format = false;
     }
 
     private String performConversion() {
@@ -190,7 +195,12 @@ public class NewJFrame extends javax.swing.JFrame {
             case 3 -> 8;
             default -> 10;
         };
-        return BaseConversions.baseToBase(theModel.getTheNumber(), baseIn, baseOut);
+        if (format) {
+            return FunWithRegex.formatNumber(BaseConversions.baseToBase(theModel.getTheNumber(), baseIn, baseOut),
+                    baseOut);
+        } else {
+            return BaseConversions.baseToBase(theModel.getTheNumber(), baseIn, baseOut);
+        }
     }
 
     // Variables declaration - do not modify
