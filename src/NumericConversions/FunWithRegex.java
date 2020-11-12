@@ -26,17 +26,12 @@ public class FunWithRegex {
         }
 
         // Pad the number with leading zeros.
-        if (radix != 10) {
-            int count = number.length() % grouping == 0 ? 0 : grouping - (number.length() % grouping);
-            padding = new String("0".repeat(count));
-        } else {
-            padding = "";
-        }
+        int count = number.length() % grouping == 0 ? 0 : grouping - (number.length() % grouping);
+        padding = "0".repeat(count);
 
         // The following returns a String in which the characters matching the search pattern have
-        // been replaced, the characters have been returned to their original sequence and leading
-        // and trailing white space has been removed.
-        return new StringBuilder((padding + number).replaceAll(regex, replacement)).toString().trim();
+        // been replaced, and trailing white space has been removed.
+        return (padding + number).replaceAll(regex, replacement).trim();
     }
 
     public static void main(String[] args) {
@@ -44,10 +39,10 @@ public class FunWithRegex {
         String hexadecimal = "A4010E030DE";
         String decimal = "987654321012";
         String octal = "7654321012";
-
-        System.out.printf("%-12s: %20s%n", binary, formatNumber(binary, 2));
-        System.out.printf("%-12s: %20s%n", hexadecimal, formatNumber(hexadecimal, 16));
-        System.out.printf("%-12s: %20s%n", decimal, formatNumber(decimal, 10));
-        System.out.printf("%-12s: %20s%n", octal, formatNumber(octal, 8));
+        String outputFormat = "%-12s: %20s%n";
+        System.out.printf(outputFormat, binary, formatNumber(binary, 2));
+        System.out.printf(outputFormat, hexadecimal, formatNumber(hexadecimal, 16));
+        System.out.printf(outputFormat, decimal, formatNumber(decimal, 10));
+        System.out.printf(outputFormat, octal, formatNumber(octal, 8));
     }
 }
