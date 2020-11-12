@@ -1,4 +1,4 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ
 p
-java:S1192"NDefine a constant instead of duplicating this literal "%-11s: %20s%n" 3 times.(™Èõïüÿÿÿÿ8Ÿ©Ò–Û.
+java:S1192!"NDefine a constant instead of duplicating this literal "%-12s: %20s%n" 3 times.(³õúİÿÿÿÿÿ8´º¤ÅÛ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ
