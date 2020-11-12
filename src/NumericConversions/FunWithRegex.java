@@ -14,11 +14,11 @@ public class FunWithRegex {
             regex = "([01]{4})";        // Group the digits by 4,
             replacement = "$1 ";        // and separate them by a space.
             grouping = 4;
-        } else if (radix == 8) {       // If the basal radix is 8 (i.e., an octal number)…
+        } else if (radix == 8) {       // If the base or radix is 8 (i.e., an octal number)…
             regex = "([0-7]{3})";       // Group the digits by 3,
             replacement = "$1 ";        // and separate them by a space.
             grouping = 3;
-        } else if (radix == 16) {       // If the basal radix is 16 (i.e., a hexadecimal number)…
+        } else if (radix == 16) {       // If the base or radix is 16 (i.e., a hexadecimal number)…
             regex = "([0-9a-fA-F]{2})"; // Group the digits by 2,
             replacement = "$1 ";        // and separate them by a space.
             grouping = 2;
