@@ -27,7 +27,7 @@ public class FunWithRegex {
 
         // Pad the number with leading zeros.
         if (radix != 10) {
-            int count = grouping - (number.length() % grouping);
+            int count = number.length() % grouping == 0 ? 0 : grouping - (number.length() % grouping);
             padding = new String("0".repeat(count));
         } else {
             padding = "";
