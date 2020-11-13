@@ -14,7 +14,7 @@ public class FunWithRegex {
             regex = "([01]{4})";        // Group the digits by 4,
             replacement = "$1 ";        // and separate them by a space.
             grouping = 4;
-        } else if (radix == 8) {       // If the base or radix is 8 (i.e., an octal number)…
+        } else if (radix == 8) {        // If the base or radix is 8 (i.e., an octal number)…
             regex = "([0-7]{3})";       // Group the digits by 3,
             replacement = "$1 ";        // and separate them by a space.
             grouping = 3;
@@ -37,15 +37,4 @@ public class FunWithRegex {
         return (padding + number).replaceAll(regex, replacement).trim();
     }
 
-    public static void main(String[] args) {
-        String binary = "111101011";
-        String hexadecimal = "A4010E030DE";
-        String decimal = "987654321012";
-        String octal = "7654321012";
-        String outputFormat = "%-12s: %20s%n";
-        System.out.printf(outputFormat, binary, formatNumber(binary, 2));
-        System.out.printf(outputFormat, hexadecimal, formatNumber(hexadecimal, 16));
-        System.out.printf(outputFormat, decimal, formatNumber(decimal, 10));
-        System.out.printf(outputFormat, octal, formatNumber(octal, 8));
-    }
 }

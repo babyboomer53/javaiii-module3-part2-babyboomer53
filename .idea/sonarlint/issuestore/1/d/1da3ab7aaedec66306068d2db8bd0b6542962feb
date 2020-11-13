@@ -1,52 +1,46 @@
 
-c
-java:S2147"ECombine this catch with the one at line 253, which has the same body.(ã€ 8ê€§¢Ú.
-[
-java:S1197ğ"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ê€§¢Ú.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ı‡³äØ.
-M
-java:S1172á"*Remove this unused method parameter "evt".(©øŞİúÿÿÿÿ8ê€§¢Ú.
-c
-java:S2147ÿ"ECombine this catch with the one at line 253, which has the same body.(¨¦Š½8ê€§¢Ú.
-t
-java:S1450’"WRemove the "jButton1" field and declare it as a local variable in the relevant methods.(©ÛÓo8â•Ñ¬Ù.
-S
-java:S1068‘"0Remove this unused "buttonGroup1" private field.(ÌšËªøÿÿÿÿ8ê€§¢Ú.
-~
-java:S1450‘"[Remove the "buttonGroup1" field and declare it as a local variable in the relevant methods.(ÌšËªøÿÿÿÿ8ê€§¢Ú.
-n	java:S128Ê"LEnd this switch case with an unconditional break, return or throw statement.(‰ÆÄÎşÿÿÿÿ8ê€§¢Ú.
-J
-java:S16044"(Make this anonymous inner class a lambda(Å¬Ñüÿÿÿÿ8â•Ñ¬Ù.
-U
-java:S1135æ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
-M
-java:S1481‰"*Remove this unused "input" local variable.(¡ù‡şÿÿÿÿ8ê€§¢Ú.
-H
-java:S1172‡"*Remove this unused method parameter "evt".(ÂÆ§»8ê€§¢Ú.
 E
-java:S1604A"(Make this anonymous inner class a lambda(ßº¹Õ8ê€§¢Ú.
-h
-java:S2147ƒ"ECombine this catch with the one at line 253, which has the same body.(»´ı‹ûÿÿÿÿ8ê€§¢Ú.
+java:S1604W"(Make this anonymous inner class a lambda(•à‚Ò8ğéí‚Ü.
+U
+java:S1135š"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
 M
-java:S1172‚"*Remove this unused method parameter "evt".(ÊÈèÂüÿÿÿÿ8ê€§¢Ú.
+java:S1172•"*Remove this unused method parameter "evt".(ÊÈèÂüÿÿÿÿ8ê€§¢Ú.
+S
+java:S1068É"0Remove this unused "buttonGroup1" private field.(ïÔúØÿÿÿÿÿ8ğéí‚Ü.
+~
+java:S1450É"[Remove the "buttonGroup1" field and declare it as a local variable in the relevant methods.(ïÔúØÿÿÿÿÿ8ğéí‚Ü.
+w
+java:S1450Ë"YRemove the "jCheckBox1" field and declare it as a local variable in the relevant methods.(×µ„Ò8ğéí‚Ü.
+X	java:S110
+"<This class has 6 parents which is greater than 5 authorized.(áƒÀ£8ğéí‚Ü.
 J
-java:S1604+"(Make this anonymous inner class a lambda(£À¿Óüÿÿÿÿ8â•Ñ¬Ù.
-K
-java:S1604‰"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ8ê€§¢Ú.
+java:S16048"(Make this anonymous inner class a lambda(Å¬Ñüÿÿÿÿ8â•Ñ¬Ù.
+E
+java:S1604I"(Make this anonymous inner class a lambda(ßº¹Õ8ê€§¢Ú.
+U
+java:S1135¤"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
+u
+java:S1450Ê"WRemove the "jButton1" field and declare it as a local variable in the relevant methods.(å……¶8ğéí‚Ü.
+J
+java:S16040"(Make this anonymous inner class a lambda(£À¿Óüÿÿÿÿ8â•Ñ¬Ù.
+J
+java:S1604P"(Make this anonymous inner class a lambda(…æ©âÿÿÿÿÿ8ê€§¢Ú.
 y
-java:S1450•"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(Ó“©©ıÿÿÿÿ8ê€§¢Ú.
-t
-java:S1450–"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(¹ñÌ8â•Ñ¬Ù.
-U
-java:S1135ƒ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
-J
-java:S1604H"(Make this anonymous inner class a lambda(…æ©âÿÿÿÿÿ8ê€§¢Ú.
-]	java:S110"<This class has 6 parents which is greater than 5 authorized.(„è•€ÿÿÿÿÿ8—™¹äØ.
-\
-java:S1854‰"9Remove this useless assignment to local variable "input".(¡ù‡şÿÿÿÿ8ê€§¢Ú.
-U
-java:S1135ˆ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
+java:S1450Ï"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ8ğéí‚Ü.
+y
+java:S1450Î"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ8ğéí‚Ü.
 M
-java:S1172å"*Remove this unused method parameter "evt".(•Ş­¨ûÿÿÿÿ8ê€§¢Ú.
+java:S1172™"*Remove this unused method parameter "evt".(‘ òôøÿÿÿÿ8ğéí‚Ü.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ı‡³äØ.
 U
-java:S1135â"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
+java:S1135–"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
+Q
+java:S1481¬".Remove this unused "theAnswer" local variable.(´¡éØıÿÿÿÿ8ğéí‚Ü.
+M
+java:S1172§"*Remove this unused method parameter "evt".(ü¸†“øÿÿÿÿ8ğéí‚Ü.
+U
+java:S1135 "2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
+M
+java:S1172£"*Remove this unused method parameter "evt".(•Ş­¨ûÿÿÿÿ8ê€§¢Ú.
+M
+java:S1172Ÿ"*Remove this unused method parameter "evt".(©øŞİúÿÿÿÿ8ê€§¢Ú.

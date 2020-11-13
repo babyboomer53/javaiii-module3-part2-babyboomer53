@@ -1,11 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package NumericConversions;
 
 import javax.swing.*;
 
-public class TheView extends JFrame {
+public class TheView extends javax.swing.JFrame {
+
+    boolean format = false;
 
     /**
-     * Creates new form NewJFrame
+     * Creates new form TheView
      */
     public TheView() {
         initComponents();
@@ -20,16 +27,17 @@ public class TheView extends JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">
     private void initComponents() {
 
-        buttonGroup1 = new ButtonGroup();
-        jLabel1 = new JLabel();
-        jTextField1 = new JTextField();
-        jComboBox1 = new JComboBox<>();
-        jLabel2 = new JLabel();
-        jTextField2 = new JTextField();
-        jComboBox2 = new JComboBox<>();
-        jButton1 = new JButton();
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        jLabel1 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jLabel2 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jButton1 = new javax.swing.JButton();
+        jCheckBox1 = new javax.swing.JCheckBox();
 
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Numeric Base Converter");
         setAlwaysOnTop(true);
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
@@ -37,17 +45,13 @@ public class TheView extends JFrame {
         jLabel1.setLabelFor(jTextField1);
         jLabel1.setText("Input");
 
-        jTextField1.setHorizontalAlignment(SwingConstants.RIGHT);
-        jTextField2.setHorizontalAlignment(SwingConstants.RIGHT);
-
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
 
-        jComboBox1.setModel(new DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal"}));
-
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal"}));
         jComboBox1.setSelectedIndex(1);
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,9 +62,13 @@ public class TheView extends JFrame {
         jLabel2.setLabelFor(jTextField2);
         jLabel2.setText("Result");
 
-        jTextField2.setEditable(true);
+        jTextField2.setEditable(false);
 
-        jComboBox2.setModel(new DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal"}));
+
+        jTextField1.setHorizontalAlignment(SwingConstants.RIGHT);
+        jTextField2.setHorizontalAlignment(SwingConstants.RIGHT);
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[]{"Binary", "Decimal", "Hexadecimal", "Octal"}));
         jComboBox2.setSelectedIndex(1);
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,52 +83,63 @@ public class TheView extends JFrame {
             }
         });
 
-        GroupLayout layout = new GroupLayout(getContentPane());
+        jCheckBox1.setText("Separators");
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-                layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
-                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addGroup(layout.createSequentialGroup()
                                                 .addComponent(jLabel1)
                                                 .addGap(18, 18, 18)
-                                                .addComponent(jTextField1, GroupLayout.PREFERRED_SIZE, 139, GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGap(18, 18, 18)
-                                                .addComponent(jComboBox1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGroup(layout.createSequentialGroup()
-                                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                         .addComponent(jButton1)
                                                         .addGroup(layout.createSequentialGroup()
                                                                 .addComponent(jLabel2)
                                                                 .addGap(12, 12, 12)
-                                                                .addComponent(jTextField2, GroupLayout.PREFERRED_SIZE, 137, GroupLayout.PREFERRED_SIZE)))
+                                                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                                 .addGap(18, 18, 18)
-                                                .addComponent(jComboBox2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-                                .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(jCheckBox1))))
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
-                layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
-                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addGroup(layout.createSequentialGroup()
                                                 .addGap(5, 5, 5)
                                                 .addComponent(jLabel1))
                                         .addGroup(layout.createSequentialGroup()
                                                 .addGap(1, 1, 1)
-                                                .addComponent(jTextField1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-                                        .addComponent(jComboBox1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addGroup(layout.createSequentialGroup()
                                                 .addGap(4, 4, 4)
                                                 .addComponent(jLabel2))
-                                        .addComponent(jTextField2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jComboBox2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton1)
-                                .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jButton1)
+                                        .addComponent(jCheckBox1))
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -129,97 +148,12 @@ public class TheView extends JFrame {
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-
     }
 
-    public void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-        String input = jTextField1.getText();
-        jTextField2.setText(performConversion());
-    }
 
-    private String performConversion() {
-        String theAnswer = null;
-        TheModel theModel = new TheModel();
-        theModel.setTheNumber(jTextField1.getText().toUpperCase().trim());
-        int baseIn = jComboBox1.getSelectedIndex();
-        int baseOut = jComboBox2.getSelectedIndex();
-        switch (baseIn) {
-            case 0:
-                switch (baseOut) {
-                    case 0:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 2);
-                        break;
-                    case 1:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 10);
-                        break;
-                    case 2:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 16);
-                        break;
-                    case 3:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 8);
-                        break;
-                    default:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 2, 10);
-                }
-                break;
-            case 1:
-                switch (baseOut) {
-                    case 0:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 2);
-                        break;
-                    case 1:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 10);
-                        break;
-                    case 2:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 16);
-                        break;
-                    case 3:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 8);
-                        break;
-                    default:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 10, 10);
-                }
-                break;
-            case 2:
-                switch (baseOut) {
-                    case 0:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 2);
-                        break;
-                    case 1:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 10);
-                        break;
-                    case 2:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 16);
-                        break;
-                    case 3:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 8);
-                        break;
-                    default:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 16, 10);
-                }
-                break;
-            case 3:
-                switch (baseOut) {
-                    case 0:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 2);
-                        break;
-                    case 1:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 10);
-                        break;
-                    case 2:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 16);
-                        break;
-                    case 3:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 8);
-                        break;
-                    default:
-                        theAnswer = BaseConversions.baseToBase(theModel.getTheNumber(), 8, 10);
-                }
-            default:
-                break;
-        }
-        return theAnswer;
+        jTextField2.setText(performConversion());
     }
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {
@@ -230,53 +164,48 @@ public class TheView extends JFrame {
         // TODO add your handling code here:
     }
 
-    public String getNumber(){
-        return jTextField1.getText();
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {
+        format = !format;
     }
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-         */
-        try {
-            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TheView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TheView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TheView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TheView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
+    private String performConversion() {
+        String theAnswer = null;
+        TheModel theModel = new TheModel();
+        theModel.setTheNumber(jTextField1.getText().toUpperCase().trim());
+        int baseIn = jComboBox1.getSelectedIndex();
+        int baseOut = jComboBox2.getSelectedIndex();
+        baseIn = switch (baseIn) {
+            case 0 -> 2;
+            case 1 -> 10;
+            case 2 -> 16;
+            case 3 -> 8;
+            default -> 10;
+        };
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new TheView().setVisible(true);
-            }
-        });
+        baseOut = switch (baseOut) {
+            case 0 -> 2;
+            case 1 -> 10;
+            case 2 -> 16;
+            case 3 -> 8;
+            default -> 10;
+        };
+        if (format) {
+            return FunWithRegex.formatNumber(BaseConversions.baseToBase(theModel.getTheNumber(), baseIn, baseOut),
+                    baseOut);
+        } else {
+            return BaseConversions.baseToBase(theModel.getTheNumber(), baseIn, baseOut);
+        }
     }
 
     // Variables declaration - do not modify
-    private ButtonGroup buttonGroup1;
-    private JButton jButton1;
-    private JComboBox<String> jComboBox1;
-    private JComboBox<String> jComboBox2;
-    private JLabel jLabel1;
-    private JLabel jLabel2;
-    private JTextField jTextField1;
-    private JTextField jTextField2;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     // End of variables declaration
 }
