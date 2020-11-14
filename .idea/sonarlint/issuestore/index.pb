@@ -13,3 +13,11 @@ X
 (src/NumericConversions/FunWithRegex.java,d\6\d6983baa430c6afa10e6a9b0b0da5673b4eb631d
 \
 ,src/NumericConversions/FunWithRegexTest.java,2\7\276e438ef12c5a2a83a67e59bee6f4e02e555ada
+j
+:.idea/artifacts/javaiii_module3_part2_babyboomer53_jar.xml,1\5\155a93099694fa2c4545b96a8bc8af38fe0e3c8b
+v
+Fout/production/javaiii-module3-part2-babyboomer53/META-INF/MANIFEST.MF,6\a\6a904edce233ab369c2f4cff046f9198edeb9f6d
+H
+src/META-INF/MANIFEST.MF,e\4\e4b1fd2293ba1e598e6bec4e0ee3b6b6851eb5a2
+T
+$src/NumericConversions/RunTests.java,c\5\c5175672dfaac175df1df3ae153b05737831c06b
