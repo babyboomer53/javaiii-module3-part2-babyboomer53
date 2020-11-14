@@ -33,7 +33,7 @@ public class FunWithRegex {
         padding = "0".repeat(count);
 
         // The following returns a String in which the characters matching the search pattern have
-        // been replaced, and trailing white space has been removed.
+        // been replaced, and trailing whitespace has been removed.
         return (padding + number).replaceAll(regex, replacement).trim();
     }
 
