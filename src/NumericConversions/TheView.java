@@ -9,7 +9,7 @@ import javax.swing.*;
 
 public class TheView extends javax.swing.JFrame {
 
-    boolean format = false;
+    boolean separators = false;
 
     /**
      * Creates new form TheView
@@ -166,7 +166,7 @@ public class TheView extends javax.swing.JFrame {
     }
 
     private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {
-        format = !format;
+        separators = !separators;
     }
 
     private String performConversion() {
@@ -190,7 +190,7 @@ public class TheView extends javax.swing.JFrame {
             case 3 -> 8;
             default -> 10;
         };
-        if (format) {
+        if (separators) {
             return FunWithRegex.formatNumber(BaseConversions.baseToBase(theModel.getTheNumber(), baseIn, baseOut),
                     baseOut);
         } else {
