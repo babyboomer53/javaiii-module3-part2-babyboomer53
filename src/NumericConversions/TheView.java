@@ -41,6 +41,7 @@ public class TheView extends javax.swing.JFrame {
         setTitle("Numeric Base Converter");
         setAlwaysOnTop(true);
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
+        setResizable(false);
 
         jLabel1.setLabelFor(jTextField1);
         jLabel1.setText("Input");
