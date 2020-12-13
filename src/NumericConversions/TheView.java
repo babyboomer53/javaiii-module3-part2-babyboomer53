@@ -39,7 +39,7 @@ public class TheView extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Numeric Base Converter");
-        setAlwaysOnTop(true);
+        //setAlwaysOnTop(true);
         setBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setResizable(false);
 
@@ -172,7 +172,7 @@ public class TheView extends javax.swing.JFrame {
     private String performConversion() {
         String theAnswer = null;
         TheModel theModel = new TheModel();
-        theModel.setTheNumber(jTextField1.getText().toUpperCase().trim());
+        theModel.setTheNumber(jTextField1.getText().toUpperCase().trim().replaceAll("[ ,]",""));
         int baseIn = jComboBox1.getSelectedIndex();
         int baseOut = jComboBox2.getSelectedIndex();
         baseIn = switch (baseIn) {

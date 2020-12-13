@@ -1,4 +1,12 @@
 
 \
-java:S1118":Add a private constructor to hide the implicit public one.(”Ëî‘úÿÿÿÿ8ñêÜƒÙ.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ
+java:S1118":Add a private constructor to hide the implicit public one.(”Ëî‘úÿÿÿÿ8ÖÒÔÕå.
+f
+java:S1192"IDefine a constant instead of duplicating this literal "Neither " 4 times.(¼ê–º8¶×å.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ç€²Çå.
+e
+java:S1192"HDefine a constant instead of duplicating this literal " nor $1" 4 times.(ñ‹Èİ8³”‡×å.
+i
+java:S1192"GDefine a constant instead of duplicating this literal "[, ]+$" 4 times.(üÓÅåşÿÿÿÿ8í¹ùÔå.
+g
+java:S1192"JDefine a constant instead of duplicating this literal ",([ ].?)$" 4 times.(ñ‹Èİ8í¹ùÔå.
