@@ -46,6 +46,8 @@ public class TheView extends javax.swing.JFrame {
         jLabel1.setLabelFor(jTextField1);
         jLabel1.setText("Input");
 
+        ToolTipManager.sharedInstance().setDismissDelay(15_000);
+        jTextField1.setToolTipText("Enter a whole number (an integer) without commas or decimal point.");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
