@@ -47,10 +47,18 @@ public class TheView extends javax.swing.JFrame {
         jLabel1.setText("Input");
 
         ToolTipManager.sharedInstance().setDismissDelay(15_000);
+
         jTextField1.setToolTipText("Enter a whole number (an integer) without commas or decimal point.");
+
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
+            }
+        });
+
+        jTextField1.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                jTextField1CaretUpdate(evt);
             }
         });
 
@@ -80,6 +88,7 @@ public class TheView extends javax.swing.JFrame {
         });
 
         jButton1.setText("Convert");
+        jButton1.setEnabled(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -151,6 +160,14 @@ public class TheView extends javax.swing.JFrame {
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
+    }
+
+    private void jTextField1CaretUpdate(javax.swing.event.CaretEvent evt) {
+        if (jTextField1.getText().isBlank()) {
+            jButton1.setEnabled(false);
+        } else {
+            jButton1.setEnabled(true);
+        }
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
