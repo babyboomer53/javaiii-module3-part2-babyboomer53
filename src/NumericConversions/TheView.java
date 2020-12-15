@@ -75,7 +75,6 @@ public class TheView extends javax.swing.JFrame {
 
         jTextField2.setEditable(false);
 
-
         jTextField1.setHorizontalAlignment(SwingConstants.RIGHT);
         jTextField2.setHorizontalAlignment(SwingConstants.RIGHT);
 
@@ -174,6 +173,8 @@ public class TheView extends javax.swing.JFrame {
         // TODO add your handling code here:
 
         jTextField2.setText(performConversion());
+        jTextField1.requestFocusInWindow();
+        jTextField1.selectAll();
     }
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,7 +192,7 @@ public class TheView extends javax.swing.JFrame {
     private String performConversion() {
         String theAnswer = null;
         TheModel theModel = new TheModel();
-        theModel.setTheNumber(jTextField1.getText().toUpperCase().trim().replaceAll("[ ,]",""));
+        theModel.setTheNumber(jTextField1.getText().toUpperCase().trim().replaceAll("[ ,]", ""));
         int baseIn = jComboBox1.getSelectedIndex();
         int baseOut = jComboBox2.getSelectedIndex();
         baseIn = switch (baseIn) {

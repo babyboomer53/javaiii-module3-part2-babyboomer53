@@ -1,12 +1,22 @@
 
+q
+java:S5850<"TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8ĞÊ›Ÿæ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ç€²Çå.
+g
+java:S1192!"JDefine a constant instead of duplicating this literal ",[ ](.?)$" 4 times.(äıßé8èÊò æ.
+q
+java:S5850J"TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8ÌÃ¢Ÿæ.
+e
+java:S1192!"HDefine a constant instead of duplicating this literal " nor $1" 4 times.(äıßé8Ìˆ¿ æ.
+f
+java:S1192%"IDefine a constant instead of duplicating this literal "Neither " 4 times.(¼ê–º8¶×å.
 \
 java:S1118":Add a private constructor to hide the implicit public one.(”Ëî‘úÿÿÿÿ8ÖÒÔÕå.
-f
-java:S1192"IDefine a constant instead of duplicating this literal "Neither " 4 times.(¼ê–º8¶×å.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ç€²Çå.
-e
-java:S1192"HDefine a constant instead of duplicating this literal " nor $1" 4 times.(ñ‹Èİ8³”‡×å.
+q
+java:S5850."TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8½Ô‘Ÿæ.
+q
+java:S5850 "TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8Ôµëæ.
 i
-java:S1192"GDefine a constant instead of duplicating this literal "[, ]+$" 4 times.(üÓÅåşÿÿÿÿ8í¹ùÔå.
-g
-java:S1192"JDefine a constant instead of duplicating this literal ",([ ].?)$" 4 times.(ñ‹Èİ8í¹ùÔå.
+java:S1192"GDefine a constant instead of duplicating this literal "([.]?)" 4 times.(ÁÍú‰ıÿÿÿÿ8ĞÊ›Ÿæ.
+k
+java:S1192 "NDefine a constant instead of duplicating this literal "^[, ]+|[, ]+$" 4 times.(¸ó›ù8ĞÊ›Ÿæ.
