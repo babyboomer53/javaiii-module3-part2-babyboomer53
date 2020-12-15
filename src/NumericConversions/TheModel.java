@@ -20,17 +20,17 @@ class BaseConversions {
 
     static String invalidDigits(String number, int base) {
         String result;
+        StringBuilder stringBuilder = new StringBuilder();
         int count = 0;
         switch (base) {
             case 2:
-                // Capture invalid characters and separate them by commas...
-                result = number.replaceAll("[01]?([^01]?)", "$1, ").replaceAll("[, ]+$", "");
-                // Remove leading commas and spaces...
-                result = result.replaceAll("(^[ ,]*)", "");
-                // How many invalid characters are there?
+                result = number.replaceAll("[01]?([^01]?)", "$1");
+                result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
+                result = stringBuilder.toString();
                 count = result.length();
-                // Create the conjunction used in messages containing multiple invalid characters.
-                result = result.replaceAll(",([ ].?)$", " nor $1");
+                result = result.replaceAll("([.]?)", "$1, ");
+                result = result.replaceAll("^[, ]+|[, ]+$", "");
+                result = result.replaceAll(",[ ](.?)$", " nor $1");
                 if (count <= 1) {
                     result = result + " is not a valid binary digit!";
                 } else {
@@ -38,14 +38,13 @@ class BaseConversions {
                 }
                 break;
             case 8:
-                // Capture invalid characters and separate them by commas...
-                result = number.replaceAll("[0-7]?([^0-7]?)", "$1, ").replaceAll("[, ]+$", "");
-                // Remove leading commas and spaces...
-                result = result.replaceAll("(^[ ,]*)", "");
-                // How many invalid characters are there?
+                result = number.replaceAll("[0-7]?([^0-7]?)", "$1");
+                result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
+                result = stringBuilder.toString();
                 count = result.length();
-                // Create the conjunction used in messages containing multiple invalid characters.
-                result = result.replaceAll(",([ ].?)$", " nor $1");
+                result = result.replaceAll("([.]?)", "$1, ");
+                result = result.replaceAll("^[, ]+|[, ]+$", "");
+                result = result.replaceAll(",[ ](.?)$", " nor $1");
                 if (count <= 1) {
                     result = result + " is not a valid octal digit!";
                 } else {
@@ -53,14 +52,13 @@ class BaseConversions {
                 }
                 break;
             case 10:
-                // Capture invalid characters and separate them by commas...
-                result = number.replaceAll("[0-9]?([^0-9]?)", "$1, ").replaceAll("[, ]+$", "");
-                // Remove leading commas and spaces...
-                result = result.replaceAll("(^[ ,]*)", "");
-                // How many invalid characters are there?
+                result = number.replaceAll("[0-9]?([^0-9]?)", "$1");
+                result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
+                result = stringBuilder.toString();
                 count = result.length();
-                // Create the conjunction used in messages containing multiple invalid characters.
-                result = result.replaceAll(",([ ].?)$", " nor $1");
+                result = result.replaceAll("([.]?)", "$1, ");
+                result = result.replaceAll("^[, ]+|[, ]+$", "");
+                result = result.replaceAll(",[ ](.?)$", " nor $1");
                 if (count <= 1) {
                     result = result + " is not a valid decimal digit!";
                 } else {
@@ -68,14 +66,13 @@ class BaseConversions {
                 }
                 break;
             case 16:
-                // Capture invalid characters and separate them by commas...
-                result = number.replaceAll("[0-9a-fA-F]?([^0-9a-fA-F]?)", "$1, ").replaceAll("[, ]+$", "");
-                // Remove leading commas and spaces...
-                result = result.replaceAll("(^[ ,]*)", "");
-                // How many invalid characters are there?
+                result = number.replaceAll("[0-9a-fA-F]?([^0-9a-fA-F]?)", "$1");
+                result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
+                result = stringBuilder.toString();
                 count = result.length();
-                // Create the conjunction used in messages containing multiple invalid characters.
-                result = result.replaceAll(",([ ].?)$", " nor $1");
+                result = result.replaceAll("([.]?)", "$1, ");
+                result = result.replaceAll("^[, ]+|[, ]+$", "");
+                result = result.replaceAll(",[ ](.?)$", " nor $1");
                 if (count <= 1) {
                     result = result + " is not a valid hexadecimal digit!";
                 } else {
