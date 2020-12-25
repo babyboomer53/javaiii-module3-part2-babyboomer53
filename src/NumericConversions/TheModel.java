@@ -28,7 +28,7 @@ class BaseConversions {
                 result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
                 result = stringBuilder.toString();
                 count = result.length();
-                result = result.replaceAll("([.]?)", "$1, ");
+                result = result.replaceAll("([^, ]?)", "$1, ");
                 result = result.replaceAll("^[, ]+|[, ]+$", "");
                 result = result.replaceAll("([^, ])", "'$1'");
                 result = result.replaceAll(",[ ](.{3})$", " nor $1");
@@ -43,7 +43,7 @@ class BaseConversions {
                 result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
                 result = stringBuilder.toString();
                 count = result.length();
-                result = result.replaceAll("([.]?)", "$1, ");
+                result = result.replaceAll("([^, ]?)", "$1, ");
                 result = result.replaceAll("^[, ]+|[, ]+$", "");
                 result = result.replaceAll("([^, ])", "'$1'");
                 result = result.replaceAll(",[ ](.{3})$", " nor $1");
@@ -58,7 +58,7 @@ class BaseConversions {
                 result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
                 result = stringBuilder.toString();
                 count = result.length();
-                result = result.replaceAll("([.]?)", "$1, ");
+                result = result.replaceAll("([^, ]?)", "$1, ");
                 result = result.replaceAll("^[, ]+|[, ]+$", "");
                 result = result.replaceAll("([^, ])", "'$1'");
                 result = result.replaceAll(",[ ](.{3})$", " nor $1");
@@ -73,7 +73,7 @@ class BaseConversions {
                 result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
                 result = stringBuilder.toString();
                 count = result.length();
-                result = result.replaceAll("([.]?)", "$1, ");
+                result = result.replaceAll("([^, ]?)", "$1, ");
                 result = result.replaceAll("^[, ]+|[, ]+$", "");
                 result = result.replaceAll("([^, ])", "'$1'");
                 result = result.replaceAll(",[ ](.{3})$", " nor $1");
