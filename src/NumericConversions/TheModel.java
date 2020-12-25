@@ -30,7 +30,8 @@ class BaseConversions {
                 count = result.length();
                 result = result.replaceAll("([.]?)", "$1, ");
                 result = result.replaceAll("^[, ]+|[, ]+$", "");
-                result = result.replaceAll(",[ ](.?)$", " nor $1");
+                result = result.replaceAll("([^, ])", "'$1'");
+                result = result.replaceAll(",[ ](.{3})$", " nor $1");
                 if (count <= 1) {
                     result = result + " is not a valid binary digit!";
                 } else {
@@ -44,7 +45,8 @@ class BaseConversions {
                 count = result.length();
                 result = result.replaceAll("([.]?)", "$1, ");
                 result = result.replaceAll("^[, ]+|[, ]+$", "");
-                result = result.replaceAll(",[ ](.?)$", " nor $1");
+                result = result.replaceAll("([^, ])", "'$1'");
+                result = result.replaceAll(",[ ](.{3})$", " nor $1");
                 if (count <= 1) {
                     result = result + " is not a valid octal digit!";
                 } else {
@@ -58,7 +60,8 @@ class BaseConversions {
                 count = result.length();
                 result = result.replaceAll("([.]?)", "$1, ");
                 result = result.replaceAll("^[, ]+|[, ]+$", "");
-                result = result.replaceAll(",[ ](.?)$", " nor $1");
+                result = result.replaceAll("([^, ])", "'$1'");
+                result = result.replaceAll(",[ ](.{3})$", " nor $1");
                 if (count <= 1) {
                     result = result + " is not a valid decimal digit!";
                 } else {
@@ -72,7 +75,8 @@ class BaseConversions {
                 count = result.length();
                 result = result.replaceAll("([.]?)", "$1, ");
                 result = result.replaceAll("^[, ]+|[, ]+$", "");
-                result = result.replaceAll(",[ ](.?)$", " nor $1");
+                result = result.replaceAll("([^, ])", "'$1'");
+                result = result.replaceAll(",[ ](.{3})$", " nor $1");
                 if (count <= 1) {
                     result = result + " is not a valid hexadecimal digit!";
                 } else {
