@@ -1,51 +1,51 @@
 
-J
-java:S16045"(Make this anonymous inner class a lambda(£À¿Óüÿÿÿÿ8â•Ñ¬Ù.
-J
-java:S1604C"(Make this anonymous inner class a lambda(Å¬Ñüÿÿÿÿ8â•Ñ¬Ù.
-U
-java:S1135µ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ã‘³šæ.
-U
-java:S1135¡"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
-M
-java:S1172 "*Remove this unused method parameter "evt".(ÊÈèÂüÿÿÿÿ8ê€§¢Ú.
-e
-java:S1126¥"BReplace this if-then-else statement by a single method invocation.(¥§¦¡ıÿÿÿÿ8Êú¹šæ.
-U
-java:S1135­"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ã‘³šæ.
-y
-java:S1450ã"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ8ã‘³šæ.
-M
-java:S1172¬"*Remove this unused method parameter "evt".(‘ òôøÿÿÿÿ8ã‘³šæ.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ı‡³äØ.
-M
-java:S1172¸"*Remove this unused method parameter "evt".(•Ş­¨ûÿÿÿÿ8ã‘³šæ.
-X	java:S110
-"<This class has 6 parents which is greater than 5 authorized.(áƒÀ£8ğéí‚Ü.
-X	java:S125*"<This block of commented-out lines of code should be removed.(ßÅ¯à8ıïÿÕå.
-M
-java:S1172´"*Remove this unused method parameter "evt".(©øŞİúÿÿÿÿ8ã‘³šæ.
-y
-java:S1450ä"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ8ã‘³šæ.
-w
-java:S1450à"YRemove the "jCheckBox1" field and declare it as a local variable in the relevant methods.(×µ„Ò8ã‘³šæ.
-M
-java:S1172¼"*Remove this unused method parameter "evt".(ü¸†“øÿÿÿÿ8ã‘³šæ.
-Q
-java:S1481Á".Remove this unused "theAnswer" local variable.(´¡éØıÿÿÿÿ8ã‘³šæ.
 E
 java:S1604S"(Make this anonymous inner class a lambda(ßº¹Õ8ê€§¢Ú.
 J
 java:S1604["(Make this anonymous inner class a lambda(…æ©âÿÿÿÿÿ8ê€§¢Ú.
-U
-java:S1135¹"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ã‘³šæ.
 E
 java:S1604;"(Make this anonymous inner class a lambda(‚õŞÚ8Â­šæ.
+U
+java:S1135¡"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ê€§¢Ú.
+U
+java:S1135¹"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ã‘³šæ.
+U
+java:S1135µ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ã‘³šæ.
+J
+java:S1604C"(Make this anonymous inner class a lambda(Å¬Ñüÿÿÿÿ8â•Ñ¬Ù.
+M
+java:S1172¼"*Remove this unused method parameter "evt".(ü¸†“øÿÿÿÿ8ã‘³šæ.
+y
+java:S1450ä"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ8ã‘³šæ.
+e
+java:S1126¥"BReplace this if-then-else statement by a single method invocation.(¥§¦¡ıÿÿÿÿ8Êú¹šæ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ı‡³äØ.
+M
+java:S1172 "*Remove this unused method parameter "evt".(ÊÈèÂüÿÿÿÿ8ê€§¢Ú.
+U
+java:S1135­"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ8ã‘³šæ.
+w
+java:S1450à"YRemove the "jCheckBox1" field and declare it as a local variable in the relevant methods.(×µ„Ò8ã‘³šæ.
+M
+java:S1172¸"*Remove this unused method parameter "evt".(•Ş­¨ûÿÿÿÿ8ã‘³šæ.
 E
 java:S1604b"(Make this anonymous inner class a lambda(•à‚Ò8ğéí‚Ü.
-S
-java:S1068Ş"0Remove this unused "buttonGroup1" private field.(ïÔúØÿÿÿÿÿ8ã‘³šæ.
 ~
 java:S1450Ş"[Remove the "buttonGroup1" field and declare it as a local variable in the relevant methods.(ïÔúØÿÿÿÿÿ8ã‘³šæ.
+X	java:S125*"<This block of commented-out lines of code should be removed.(ßÅ¯à8ıïÿÕå.
+M
+java:S1172´"*Remove this unused method parameter "evt".(©øŞİúÿÿÿÿ8ã‘³šæ.
+M
+java:S1172¬"*Remove this unused method parameter "evt".(‘ òôøÿÿÿÿ8ã‘³šæ.
+Q
+java:S1481Á".Remove this unused "theAnswer" local variable.(´¡éØıÿÿÿÿ8ã‘³šæ.
 H
 java:S1172¤"*Remove this unused method parameter "evt".(ÏÙÏµ8ã‘³šæ.
+J
+java:S16045"(Make this anonymous inner class a lambda(£À¿Óüÿÿÿÿ8â•Ñ¬Ù.
+S
+java:S1068Ş"0Remove this unused "buttonGroup1" private field.(ïÔúØÿÿÿÿÿ8ã‘³šæ.
+X	java:S110
+"<This class has 6 parents which is greater than 5 authorized.(áƒÀ£8ğéí‚Ü.
+y
+java:S1450ã"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ8ã‘³šæ.

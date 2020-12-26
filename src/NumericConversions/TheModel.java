@@ -22,69 +22,38 @@ class BaseConversions {
         String result;
         StringBuilder stringBuilder = new StringBuilder();
         int count = 0;
+        String radix;
         switch (base) {
             case 2:
                 result = number.replaceAll("[01]?([^01]?)", "$1");
-                result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
-                result = stringBuilder.toString();
-                count = result.length();
-                result = result.replaceAll("([^, ]?)", "$1, ");
-                result = result.replaceAll("^[, ]+|[, ]+$", "");
-                result = result.replaceAll("([^, ])", "'$1'");
-                result = result.replaceAll(",[ ]*(.)", " nor $1").replaceAll("('\\.')","a decimal point");
-                if (count <= 1) {
-                    result = result + " is not a valid binary digit!";
-                } else {
-                    result = "Neither " + result + " is a valid binary digit!";
-                }
+                radix = "binary";
                 break;
             case 8:
                 result = number.replaceAll("[0-7]?([^0-7]?)", "$1");
-                result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
-                result = stringBuilder.toString();
-                count = result.length();
-                result = result.replaceAll("([^, ]?)", "$1, ");
-                result = result.replaceAll("^[, ]+|[, ]+$", "");
-                result = result.replaceAll("([^, ])", "'$1'");
-                result = result.replaceAll(",[ ]*(.)", " nor $1").replaceAll("('\\.')","a decimal point");
-                if (count <= 1) {
-                    result = result + " is not a valid octal digit!";
-                } else {
-                    result = "Neither " + result + " is a valid octal digit!";
-                }
+                radix = "octal";
                 break;
             case 10:
                 result = number.replaceAll("[0-9]?([^0-9]?)", "$1");
-                result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
-                result = stringBuilder.toString();
-                count = result.length();
-                result = result.replaceAll("([^, ]?)", "$1, ");
-                result = result.replaceAll("^[, ]+|[, ]+$", "");
-                result = result.replaceAll("([^, ])", "'$1'");
-                result = result.replaceAll(",[ ]*(.)", " nor $1").replaceAll("('\\.')","a decimal point");
-                if (count <= 1) {
-                    result = result + " is not a valid decimal digit!";
-                } else {
-                    result = "Neither " + result + " is a valid decimal digit!";
-                }
+                radix = "decimal";
                 break;
             case 16:
                 result = number.replaceAll("[0-9a-fA-F]?([^0-9a-fA-F]?)", "$1");
-                result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
-                result = stringBuilder.toString();
-                count = result.length();
-                result = result.replaceAll("([^, ]?)", "$1, ");
-                result = result.replaceAll("^[, ]+|[, ]+$", "");
-                result = result.replaceAll("([^, ])", "'$1'");
-                result = result.replaceAll(",[ ]*(.)", " nor $1").replaceAll("('\\.')","a decimal point");
-                if (count <= 1) {
-                    result = result + " is not a valid hexadecimal digit!";
-                } else {
-                    result = "Neither " + result + " is a valid hexadecimal digit!";
-                }
+                radix = "hexadecimal";
                 break;
             default:
-                result = number;
+                return number;
+        }
+        result.chars().distinct().forEach(c -> stringBuilder.append((char) c));
+        result = stringBuilder.toString();
+        count = result.length();
+        result = result.replaceAll("([^, ]?)", "$1, ");
+        result = result.replaceAll("^[, ]+|[, ]+$", "");
+        result = result.replaceAll("([^, ])", "'$1'");
+        result = result.replaceAll(",[ ]*(.)", " nor $1").replaceAll("('\\.')", "a decimal point");
+        if (count <= 1) {
+            result = result + " is not a valid " + radix + " digit!";
+        } else {
+            result = "Neither " + result + " is a valid " + radix + " digit!";
         }
         return result;
     }
