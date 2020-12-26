@@ -1,26 +1,30 @@
 
-i
-java:S1192""MDefine a constant instead of duplicating this literal ",[ ]*(.{1})$" 4 times.(¡“¢[8“Ùßé.
-X	java:S125?"<This block of commented-out lines of code should be removed.(ë¦î8Ë°ßé.
-f
-java:S1192&"IDefine a constant instead of duplicating this literal "Neither " 4 times.(¼ê–º8¶×å.
-X	java:S1250"<This block of commented-out lines of code should be removed.(ë¦î8øúœßé.
+h
+java:S1192""FDefine a constant instead of duplicating this literal "(\\.)" 4 times.(£à¶ıÿÿÿÿ8ŸÈÕëé.
 q
 java:S5850/"TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8Ë„áÙé.
-q
-java:S5850M"TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8Ë„áÙé.
-\
-java:S1118":Add a private constructor to hide the implicit public one.(”Ëî‘úÿÿÿÿ8ÖÒÔÕå.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ç€²Çå.
+X	java:S125?"<This block of commented-out lines of code should be removed.(ë¦î8Ë°ßé.
 k
-java:S1192"IDefine a constant instead of duplicating this literal "([^, ]?)" 4 times.(±¶‹ùÿÿÿÿ8îãÿİé.
-q
-java:S5850 "TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8Ôµëæ.
-X	java:S125!"<This block of commented-out lines of code should be removed.(ë¦î8‹ª›ßé.
-X	java:S125N"<This block of commented-out lines of code should be removed.(ë¦î8˜ô ßé.
+java:S1192""IDefine a constant instead of duplicating this literal ",[ ]*(.)" 4 times.(£à¶ıÿÿÿÿ8ŸÈÕëé.
 k
 java:S1192 "NDefine a constant instead of duplicating this literal "^[, ]+|[, ]+$" 4 times.(¸ó›ù8ĞÊ›Ÿæ.
 q
+java:S5850 "TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8Ôµëæ.
+f
+java:S1192&"IDefine a constant instead of duplicating this literal "Neither " 4 times.(¼ê–º8¶×å.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(”Ëî‘úÿÿÿÿ8ÖÒÔÕå.
+X	java:S1250"<This block of commented-out lines of code should be removed.(ë¦î8øúœßé.
+q
 java:S5850>"TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8Ë„áÙé.
-d
-java:S1192""HDefine a constant instead of duplicating this literal " nor $1" 4 times.(¡“¢[8³”‡×å.
+k
+java:S1192"IDefine a constant instead of duplicating this literal "([^, ]?)" 4 times.(±¶‹ùÿÿÿÿ8îãÿİé.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÅ¿êüÿÿÿÿ8ç€²Çå.
+q
+java:S5850M"TGroup parts of the regex together to make the intended operator precedence explicit.(¸ó›ù8Ë„áÙé.
+X	java:S125N"<This block of commented-out lines of code should be removed.(ë¦î8˜ô ßé.
+r
+java:S1192""PDefine a constant instead of duplicating this literal "a decimal point" 4 times.(£à¶ıÿÿÿÿ8ŸÈÕëé.
+X	java:S125!"<This block of commented-out lines of code should be removed.(ë¦î8‹ª›ßé.
+j
+java:S1192""HDefine a constant instead of duplicating this literal " nor $1" 4 times.(£à¶ıÿÿÿÿ8³”‡×å.
