@@ -10,7 +10,7 @@ class BaseConversions {
         try {
             return new BigInteger(num, base1).toString(base2);
         } catch (NumberFormatException numberFormatException) {
-            System.err.println(numberFormatException);
+            System.err.println(numberFormatException.getMessage());
             JOptionPane.showMessageDialog(null, invalidDigits(num, base1), "Number Format Exception",
                     JOptionPane.WARNING_MESSAGE);
             return "Invalid input!";
